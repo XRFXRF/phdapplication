@@ -1,3 +1,4 @@
 Rails.application.routes.draw do
-  resources :movies, only: [:index]
+  get '/hello', to: 'welcome#hello'
+  get 'welcome/hello'
 end
