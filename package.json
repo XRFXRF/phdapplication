@@ -1,0 +1,19 @@
+{
+  "name": "phdapplication",
+  "version": "1.0.0",
+  "description": "- Use `create-react-app` to generate a new React application within a Rails\r   project\r - Proxy requests from React to Rails in development\r - Use the `foreman` gem to run React and Rails together",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "18.0.0",
+    "npm": "8.6.0"
+  }
+}
