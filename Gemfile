@@ -20,6 +20,13 @@ gem 'puma', '~> 5.0'
 
 gem 'wdm', '>= 0.1.0'
 
+group :assets do
+  gem 'therubyracer'
+  gem 'sass-rails'
+  gem 'coffee-rails'
+  gem 'uglifier'
+end
+
 #! update the psych to avoid the error message
 gem 'psych', '~> 5.0', '>= 5.0.1'
 
