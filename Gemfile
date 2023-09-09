@@ -20,7 +20,6 @@ gem 'puma', '~> 5.0'
 
 # gem 'wdm', '>= 0.1.0'
 
-
 # group :assets do
 #   gem 'therubyracer'
 #   gem 'sass-rails'
