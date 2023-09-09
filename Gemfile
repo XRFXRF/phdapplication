@@ -18,7 +18,7 @@ gem 'puma', '~> 5.0'
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
 
-gem 'wdm', '>= 0.1.0'
+# gem 'wdm', '>= 0.1.0'
 
 # group :assets do
 #   gem 'therubyracer'
