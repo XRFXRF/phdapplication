@@ -6,9 +6,9 @@ gem 'rails', '~> 6.1.3', '>= 6.1.3.2'
 
 #! Heroku doesn't support sqlite3
 # Use sqlite3 as the database for Active Record
-# gem 'sqlite3', '~> 1.4'
+gem 'sqlite3', '~> 1.4'
 
-gem 'pg'
+# gem 'pg'
 
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
@@ -20,12 +20,12 @@ gem 'puma', '~> 5.0'
 
 gem 'wdm', '>= 0.1.0'
 
-group :assets do
-  gem 'therubyracer'
-  gem 'sass-rails'
-  gem 'coffee-rails'
-  gem 'uglifier'
-end
+# group :assets do
+#   gem 'therubyracer'
+#   gem 'sass-rails'
+#   gem 'coffee-rails'
+#   gem 'uglifier'
+# end
 
 #! update the psych to avoid the error message
 gem 'psych', '~> 5.0', '>= 5.0.1'
